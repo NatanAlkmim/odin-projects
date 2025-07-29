@@ -10,53 +10,82 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 8px 64px;
+    min-width: 512px
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display:flex;
+    display: flex;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo-link {
     font-size: 24px;
     color: #F9FAF8;
-    text-decoration: none /*talvez colocar "a"*/
 }
 
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
-    text-decoration: none /*talvez colocar "a"*/
 }
-
 
 .wrap1 {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 8px 64px;
 }
 
 .wrap2 {
     display: flex;
-    padding: 64px
+    padding: 8px 64px;
+    gap: 32px
+}
+
+.about-website {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
 }
 
 .header-title {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
+.about-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
+.sign-up {
+    display: flex;
+    flex-direction: column;
+}
 
+.button {
+    color: #ffffff;
+    background-color: #2882F6;
+    max-width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+}
 
-
-
-
-
+.image-local {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0
+}
 
 
 footer {
